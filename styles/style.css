@@ -364,7 +364,7 @@ footer {
 }
 
 /* respo0nsive mobile styles */
-@media only screen and (max-width:577px) {
+@media only screen and (max-width:576px) {
     s body {
         width: 100%;
     }
