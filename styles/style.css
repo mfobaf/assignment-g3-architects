@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* responsive section hidden */
+.mobile-view-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    display: none;
+}
+
+.btn1-mvs {
+    display: none;
+}
+
+/* nav styles */
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 1.2rem;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+/* banner style */
+.banner {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-btn {
+    color: #FFFFFF;
+    background-color: darkorange;
+    padding: 1.1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.banner-images {
+    width: 76%;
+    padding: 2rem 0px;
+    margin: 0 auto;
+
+
+}
+
+.banner-images img {
+    width: 100%;
+}
+
+/* feature styles */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.feature-images {
+    width: 48%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.feature-info {
+    width: 48%;
+
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 2rem;
+    width: 70%;
+    margin-bottom: 1.5rem;
+}
+
+.span-1 {
+    color: #727272;
+
+
+}
+
+.span-2 {
+    color: darkorange;
+}
+
+.feature-paragraph {
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+}
+
+/* various features style */
+.feature-typ-container {
+    margin-top: 3rem;
+}
+
+.feature-types {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.feature-typ {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-type-imaes {
+    width: 48%;
+}
+
+.feature-type-title {
+    font-weight: 700;
+    font-size: 2rem;
+    border-left: 4px solid #FF900E;
+    padding: 2px 10px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.feature-ryp-ordinary {
+    margin-bottom: 10px;
+}
+
+.feature-type-imaes img {
+    width: 100%;
+
+}
+
+.feature-typ-paragraph {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    width: 76%;
+    margin: 5px;
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.btn1 {
+    width: 13rem;
+    height: 8rem;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 41rem;
+    bottom: -99rem;
+
+}
+
+.btn1-title {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.feature-typs-subtitles {
+    font-weight: 600;
+    font-size: 20px;
+    font-size: 1rem;
+    padding: 2px;
+}
+
+/* some fact section style */
+.some-facts {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: left;
+    padding: 5px;
+    margin-top: 7rem;
+}
+
+.some-facts-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.some-facts-paragraph {
+    width: 62%;
+    font-size: 13px;
+}
+
+/* achievements */
+
+.achievements {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5rem auto 0 auto;
+    grid-gap: 3rem;
+
+}
+.achievemnt:hover{
+
+    box-shadow: 0px 4px 10px rgba(160, 29, 29, 0.76);
+    background-color: #f15d2236;
+    transition: 0.3s;
+
+}
+
+.achievemnt {
+
+    border: 1px solid #FF900E;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid rgba(233, 4, 4, 0.774);
+}
+
+.achievemnt img {
+    width: 32%;
+}
+
+/* sponsor style */
+.sponsors {
+    margin: 6rem auto 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.sponsor-paragraph {
+    margin: 1rem auto 4rem auto;
+    width: 70%;
+}
+
+.sponsor-branding {
+
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.sponsor-branding img {
+    width: 70%;
+}
+/* hire us styles */
+.gradiant {
+    background: linear-gradient(to right, rgba(34, 125, 230, 0.6), rgba(241, 196, 15, 0.445)), url(../images/fwatch2.png);
+    background-size: 203%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 63%;
+    margin-top: 170px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+    height: 10rem;
+    
+
+}
+
+.gradiant-text {
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 60%;
+    margin-left: 65px;
+    margin-top: 32px;
+    padding-top: 20px;
+}
+
+.btn {
+    width: 7rem;
+    font-size: 12px;
+    height: 42px;
+    background-color: darkgrey;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* footer */
+footer {
+    background: rgba(255, 144, 14, 0.1);
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.2rem;
+    border-radius: 6px;
+    margin-bottom: 3rem;
+
+}
+
+/* respo0nsive mobile styles */
+@media only screen and (max-width:577px) {
+    s body {
+        width: 100%;
+    }
+
+    .mobile-view-nav {
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+    }
+
+    .banner {
+        width: 80%;
+
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .features {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .feature-info {
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .feature-images {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn1-mvs {
+        display: block;
+        width: 5rem;
+        height: 4rem;
+        background-color: #FF900E;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        position: static;
+        left: 17em;
+        bottom: -1rem;
+        margin: 1rem auto 1rem auto;
+        width: 7rem;
+
+
+    }
+
+    .feature-types {
+        flex-direction: column;
+    }
+
+    .feature-title,
+    .feature-typ,
+    .feature-type-imaes,
+    .feature-type-title,
+    .some-facts-paragraph,
+    .sponsor-title {
+        width: 92%;
+    }
+
+    .feature-typ-paragraph {
+
+
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .feature-type-title {
+        width: 92%;
+        font-size: 1.6rem;
+        padding: 0px 0px 0px 6px;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+
+
+    .achievements {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5rem auto 0 auto;
+        grid-gap: 1rem;
+        padding: 2rem;
+
+    }
+    .gradiant {
+        background: linear-gradient(to right, rgba(34, 125, 230, 0.6), rgba(241, 196, 15, 0.445)), url(../images/fwatch2.png);
+        background-size: 271%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 82%;
+        margin-top: 170px;
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-bottom: 4rem;
+        height: 10rem;
+        
+    
+    }
+
+    .some-facts {
+        text-align: center;
+    }
+
+    .sponsor-branding {
+        width: 42%;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 32px;
+
+    }
+}
